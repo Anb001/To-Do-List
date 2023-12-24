@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(81, 145, 241);
+    font-size: 35px;
+
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 95%;
+    height: 400px;
+    margin-left: 2.6%;
+    margin-bottom: 5%;
+    background-color: lightgrey;
+}
+
+.work li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: bisque;
+    color: red;
+}
+
+.work li p {
+    padding: 10px;
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+form button {
+    height: 50px;
+    width: 80px;
+    background-color: lightblue;
+    border: 1px solid grey;
+}
+
+form button:hover {
+    box-shadow: 2px 2px rgb(91, 215, 213);
+}
